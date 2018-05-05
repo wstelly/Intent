@@ -14,12 +14,21 @@
         android:layout_margin="20dp" />
 
     <TextView
-        android:id="@+id/open_web_site_tv"
+        android:id="@+id/open_web_site_by_mybrowser_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@color/holo_blue_bright"
         android:padding="3dp"
-        android:text="浏览该网页" />
+        android:text="打开网页" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/open_web_site_by_default_browser_tv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@color/holo_blue_bright"-->
+        <!--android:padding="3dp"-->
+        <!--android:text="使用默认浏览器打开" />-->
 
 </LinearLayout>

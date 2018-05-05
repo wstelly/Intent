@@ -2,6 +2,7 @@ package stelly.example.mybrowser;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.WebBackForwardList;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        Log.i("+++++++",webSite+"");
 
         webView.loadUrl(webSite);
 
